@@ -18,10 +18,10 @@ function convertToRoman(num) {
   //your code here
 	let result = "";
 
-	for(int i=0; i<=12; i++){
-		while(num >= obj.get(i).get(1)){
-			result += obj.get(i).get(0);
-			num -= obj.get(i).get(1));
+	for(let i=0; i<=12; i++){
+		while(num >= obj[i][1]{
+			result += obj[i][0];
+			num -= obj[i][1]);
 		}
 	}
 	return result;
